@@ -9,7 +9,7 @@ import dayjs from 'dayjs'
 let now = dayjs().format('MMMM, D, YYYY')
 
 
-const date1 = dayjs(now);
+let date1 = dayjs(now);
 const date2 = dayjs("2023-09-5");
 
 // Difference in days
