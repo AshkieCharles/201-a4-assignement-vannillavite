@@ -10,7 +10,7 @@ let now = dayjs().format('MMMM, D, YYYY')
 
 
 let date1 = dayjs(now);
-const date2 = dayjs("2023-09-5");
+const date2 = dayjs("2023-09-05");
 
 // Difference in days
 let df = date1.diff(date2, "day"); 
