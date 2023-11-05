@@ -26,7 +26,7 @@ document.querySelector('#app').innerHTML = `
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>Hello Vite!</h1>
-    <h2> Today's date is: ${now}</h2>
+    <h2> Today’s date: ${now}</h2>
     <h2> The amount of days since the start of class is currently ${df4} days</h2>
     <div class="card">
       <button id="counter" type="button"></button>
