@@ -13,8 +13,8 @@ const date1 = dayjs(now);
 const date2 = dayjs("2023-09-5");
 
 // Difference in days
-let df4 = date1.diff(date2, "day"); 
-console.log(df4);
+let df = date1.diff(date2, "day"); 
+console.log(df);
 
 
 document.querySelector('#app').innerHTML = `
@@ -27,7 +27,7 @@ document.querySelector('#app').innerHTML = `
     </a>
     <h1>Hello Vite!</h1>
     <h2> Today’s date: ${now}</h2>
-    <h2> The amount of days since the start of class is currently ${df4} days</h2>
+    <h2> The amount of days since the start of class is currently ${df} days</h2>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
