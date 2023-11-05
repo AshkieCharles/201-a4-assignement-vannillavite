@@ -5,7 +5,6 @@ import viteLogo from '../images/vite.svg'
 import { setupCounter } from './counter.js'
 import dayjs from 'dayjs'
 
-
 let now = dayjs().format('MMMM, D, YYYY')
 
 
@@ -26,8 +25,8 @@ document.querySelector('#app').innerHTML = `
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>Hello Vite!</h1>
-    <h2> Today’s date: ${now}</h2>
-    <h2> The amount of days since the start of class is currently ${df} days</h2>
+    <h2 class="text-cyan-300"> Today’s date: ${now}</h2>
+    <h2 class="text-cyan-300"> The amount of days since the start of class is currently ${df} days</h2>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
